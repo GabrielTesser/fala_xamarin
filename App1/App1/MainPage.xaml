@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Button Text="teste" x:Name="btn_fala" Clicked="btn_fala_Clicked"/>
+        <Button Text="cachorro" x:Name="btn_cachorro" Clicked="btn_cachorro_Clicked"/>
+        <Button Text="cavalo" x:Name="btn_cavalo" Clicked="btn_cavalo_Clicked"/>
+
+        <Entry Placeholder="cavalo" x:Name="txt_fala"/>
+    </StackLayout>
+
+   
+</ContentPage>
